@@ -1,0 +1,30 @@
+{
+  "name": "discord-proxy-ultraviolet",
+  "version": "2.0.0",
+  "description": "Proxy completo com Ultraviolet para acessar Discord sem bloqueios",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "proxy",
+    "discord",
+    "unblocker",
+    "ultraviolet"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@tomphttp/bare-server-node": "^2.0.5",
+    "@titaniumnetwork-dev/ultraviolet": "^3.2.7",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
